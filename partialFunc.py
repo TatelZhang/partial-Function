@@ -34,10 +34,7 @@ ReguButton = partial(MyButton,command =infoCB, bg ='white')
 
 buttons =[CritButton, WarnButton, ReguButton]
 
-'''
-for button in buttons:
-    button.__call__()
-'''
+
 '''
 for eachSign in SIGNS:
     signType = SIGNS[eachSign]
